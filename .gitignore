@@ -1,0 +1,46 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# Generated model and array artifacts
+debug_input.npy
+debug_mask.npy
+models/*.h5
+models/*.npy
+outputs/*.npy
+outputs/*.csv
+
+# Project datasets
+glioma-segmentation-project/data/
