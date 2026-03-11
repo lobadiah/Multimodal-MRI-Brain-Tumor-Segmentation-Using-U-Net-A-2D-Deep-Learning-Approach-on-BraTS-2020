@@ -80,27 +80,20 @@ Examples of excluded local artifacts:
 
 ### Python dependencies
 
-The current project dependencies are listed in `requirements.txt`:
+The root `requirements.txt` now includes both the Streamlit app dependencies and the notebook dependencies required for training and evaluation:
 
 ```text
 streamlit
 tensorflow
-opencv-python
 numpy
+opencv-python
 pillow
 matplotlib
 scikit-image
-```
-
-If you plan to re-run notebook training from scratch with BraTS `.nii` files, you will also need packages used by the notebook, such as:
-
-```text
 nibabel
 scikit-learn
 pandas
 ```
-
-If those are not already installed in your environment, install them manually.
 
 ## Dataset
 
@@ -174,7 +167,6 @@ python -m venv .venv
 
 ```bash
 pip install -r requirements.txt
-pip install nibabel scikit-learn pandas
 ```
 
 ### 4. Provide the trained model
@@ -300,7 +292,7 @@ Recommended contribution areas:
 
 ## License
 
-No root-level license file is currently included in this repository snapshot. Add an explicit license before wider public reuse or external contributions.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
 ## Acknowledgments
 
