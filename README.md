@@ -4,6 +4,14 @@ End-to-end brain tumor segmentation project built around a 2D U-Net workflow for
 
 [Project demo video](https://youtu.be/9wd21YIcHZA)
 
+## About
+
+Description: Multimodal MRI brain tumor segmentation project using a 2D U-Net model with a Streamlit interface for interactive inference and visualization.
+
+Website: [Project demo video](https://youtu.be/9wd21YIcHZA)
+
+Suggested topics: brain-tumor-segmentation, medical-imaging, deep-learning, u-net, tensorflow, keras, streamlit, mri, computer-vision, brats2020
+
 ## Overview
 
 This repository combines two practical deliverables:
