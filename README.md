@@ -307,6 +307,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE).
 - BraTS dataset and research community
 - TensorFlow and Keras ecosystem
 - Streamlit for rapid model demo deployment
+- pahujadiljeet
 
 ## Author
 
